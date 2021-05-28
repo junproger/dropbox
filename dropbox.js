@@ -28,12 +28,12 @@
 			clicks += 1;
 			console.log('Click to drag');
 				if (clicks% 2 !== 0) {
-					drag.addEventListener('mousemove', eventHandler);
+					document.addEventListener('mousemove', eventHandler);
 						console.log(clicks + 'odd');
 						drag.style.zIndex = 100100;
 					}
 				if (clicks% 2 == 0) {
-					drag.removeEventListener('mousemove', eventHandler);
+					document.removeEventListener('mousemove', eventHandler);
 					console.log(clicks + 'even');
 					drag.style.zIndex = 100000;
 					} 
