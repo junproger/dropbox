@@ -61,4 +61,39 @@
 				}
 			}
 		});
-			
+//			
+//				let drag = document.querySelector('#dragElement');
+//				drag.style.background = 'darkorange';
+//				drag.addEventListener('click', dragHandler);
+//				
+//				function dragHandler() {
+//				console.log('Calling Function dragHandler');
+//						if (drag.style.background == 'darkorange') {
+//						drag.style.background = 'deeppink';
+//						console.log('Change color to Green');
+//						} else {
+//						drag.style.background = 'darkorange';
+//						console.log('Change color to Blue');
+//						}
+//				}
+//				
+//				let drop = document.querySelector('#dropElement');
+//				drop.style.background = 'blue';
+//				drop.addEventListener('click', dropHandler);
+//				
+//				function dropHandler() {
+//				console.log('Calling Function dropHandler');
+//						let red = Math.round(Math.random()*255);
+//						let green = Math.round(Math.random()*255);
+//						let blue = Math.round(Math.random()*255);
+//						drop.style.background = `rgb(${red},${green},${blue})`;
+//				}
+//				
+//				dragElement.onclick = function() {
+//						console.log('Click to dragElement');
+//				}
+//
+//				dragElement.onmousedown = function() {
+//						console.log('Mousedown to dragElement');
+//				}
+//
